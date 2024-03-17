@@ -1,0 +1,270 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* main */
+main{
+    font-family: sans-serif;
+    background-color: rgba(222, 228, 233, 0.651);
+    height: 73vh;
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* container-div */
+.container-div{
+    margin-bottom: 30px;
+}
+
+/* main div */
+.main-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* header div */
+.header-div{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin: 55px 55px 185px;
+}
+
+/* header div h1 */
+.header-div h1{
+    font-size: 60px;
+    color: rgb(29, 99, 228);
+    line-height: 1.5;
+}
+
+/* header-div h2 */
+.header-div h2{
+    font-family: "Roboto", sans-serif;
+    font-size: 28px;
+    font-weight: 400;
+    width: 110%;
+}
+
+/* input div */
+.input-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 100px;
+}
+
+/* input div form inputs and buttons */
+.input-div form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid none;
+    border-radius: 8px;
+    background-color: #fff;
+    padding: 18px 18px 28px;
+    box-shadow: 1px 1px 7px 2px rgb(220, 216, 216);
+    
+}
+/* placeholder */
+form ::placeholder{
+    width:90%;
+    font-size: 17px;
+    padding-left: 15px;
+}
+
+/*  email   */
+.email{
+    width: 360px;
+    height: 55px;
+    border-radius: 6px;
+    border: 1px solid rgb(220, 216, 216);
+    border-color: rgb(220, 216, 216);
+    font-size: 17px;
+    opacity: 80%;
+}
+
+/* password */
+.password{
+    width: 360px;
+    height: 55px;
+    border-radius: 6px;
+    border: 1px solid rgb(220, 216, 216);
+    margin-top: 15px;
+    opacity: 80%;
+}
+
+/* log-in */
+.log-in{
+    width: 360px;
+    height: 50px;
+    border-radius: 6px;
+    border: none;
+    border-width: thin;
+    background-color: rgb(29, 99, 228);
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 16px;
+}
+.log-in:hover{
+    background-color: rgb(50, 116, 240);
+    transition: 0.5s;
+    
+}
+
+/* forgot-password */
+.forgot-password{
+    font-size: 15px;
+    color: rgb(36, 108, 225);
+    margin-top: 18px;
+}
+.forgot-password:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+/* horizontal line in form */
+.form-line{
+    border-bottom: 1px solid rgb(220, 216, 216);
+    width: 100%;
+    margin-top: 20px;
+}
+
+/* create-new-accaunt */
+.create-new-accaunt{
+    width: 193px;
+    height: 48px;
+    border: none;
+    border-radius: 7px;
+    background-color: rgba(61, 185, 39, 0.975);
+    color: #fff;
+    font-size: 17px;
+    font-weight: bold;
+    margin-top: 25px;
+}
+.create-new-accaunt:hover{
+    background-color: rgba(54, 156, 36, 0.91);
+    transition: 0.5s;
+}
+
+/* create-a-page */
+.create-a-page{
+    font-size: 14px;
+    margin-top: 30px;
+}
+.create-a-page span{
+    font-weight: bold;
+}
+.create-a-page span:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+/* header div h1 */
+.header-div h1{
+    font-size: 60px;
+    color: rgb(29, 99, 228);
+}
+
+/* header-div h2 */
+.header-div h2{
+    font-family: "Roboto", sans-serif;
+    font-size: 28px;
+    font-weight: 400;
+    width: 110%;
+}
+
+/* footer */
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    
+}
+
+/* footer-container */
+.footer-container{
+    display: flex;
+    align-items: center;
+}
+
+/* language */
+.language{
+    display: flex;
+    align-items: center;
+    gap: 11px;
+    font-family: sans-serif;
+    color: rgb(119, 122, 120);
+    font-size: 12px;
+    font-weight: 500;
+    margin-top: 30px;
+}
+
+
+/* line */
+.line{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgb(119, 122, 120);
+    width: 102%;
+    margin-top: 7px;
+    opacity: 30%;
+}
+
+/* apps */
+.apps{
+    display: flex;
+    align-items: center;
+    gap: 26px;
+    font-size: 12px;
+    font-family: sans-serif;
+    color: rgb(119, 122, 120);
+    margin-top: 7px;
+    line-height: 1.5;
+    
+}
+
+/* help */
+.help{
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    font-family: sans-serif;
+    color: rgb(119, 122, 120);
+    gap: 26px;
+    line-height: 1.5;
+}
+
+/* contact */
+.contact{
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    font-family: sans-serif;
+    color: rgb(119, 122, 120);
+    gap: 30px;
+    line-height: 1.5;
+}
+
+/* meta */
+.meta{
+    display: flex;
+    align-items: center;
+    font-size: 11px;
+    font-family: sans-serif;
+    color: rgb(119, 122, 120);
+    margin-top: 20px;
+}
+
+
+
+
